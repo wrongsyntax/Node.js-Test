@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 #{title}
+  p Welcome to #{title}
+  form(action='/info', method='GET')
+    input(id='route-num', type='number')
+    button Click to go to info page for the above route
