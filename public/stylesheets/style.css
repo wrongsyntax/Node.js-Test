@@ -1,8 +1,33 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html {
+  background: #00143B;
 }
 
-a {
-  color: #00B7FF;
+body {
+  padding: 50px;
+  font: 24px "Zilla Slab", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+#routeHeader {
+  color: #00FFA7;
+  font: 14px "Zilla Slab SemiBold", Helvetica, Arial, sans-serif;
+  font-size: 100px;
+  margin-left: 8.5%;
+}
+
+.destination {
+  font-size: 45px;
+}
+
+input {
+  font: 55px "Zilla Slab Light";
+  background: transparent;
+  border: 0;
+  color: #00FFA7;
+}
+
+.routeNumInput {
+  width: 10%;
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
 }
