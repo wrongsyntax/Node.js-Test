@@ -4,6 +4,6 @@ block content
   h1 #{title}
   p Welcome to #{title}
   form(action='/info', method='GET')
-    input(id='routeInput', type='number', name='routeNumber')
+    input(type='number', name='routeNumber', placeholder='Num', class='routeNumInput')
     br
     button(type='submit') Click to go to info page for the above route

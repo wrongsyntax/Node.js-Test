@@ -1,0 +1,723 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "d577-xky7",
+      "name" : "ETS Bus Schedule GTFS Data Feed - Routes",
+      "attribution" : "City of Edmonton",
+      "averageRating" : 0,
+      "category" : "Transit",
+      "createdAt" : 1317373206,
+      "description" : "List of all bus routes in Edmonton",
+      "displayType" : "table",
+      "downloadCount" : 669,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1555668712,
+      "licenseId" : "SEE_TERMS_OF_USE",
+      "newBackend" : true,
+      "numberOfComments" : 2,
+      "oid" : 28593741,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1524842743,
+      "publicationGroup" : 238244,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1579864581,
+      "rowsUpdatedBy" : "c5qq-z5ib",
+      "tableId" : 15068300,
+      "totalTimesRated" : 0,
+      "viewCount" : 2257,
+      "viewLastModified" : 1579864291,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1524842743,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 780083,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1524842743,
+        "workflowId" : 2142,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "k7hy-72gy",
+          "displayName" : "Richard"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 356987069,
+        "name" : "route_id",
+        "dataTypeName" : "text",
+        "description" : "ID that uniquely identifies a route",
+        "fieldName" : "route_id",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1496047,
+        "width" : 121,
+        "cachedContents" : {
+          "largest" : "99",
+          "non_null" : "222",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "1"
+          }, {
+            "item" : "10",
+            "count" : "1"
+          }, {
+            "item" : "100",
+            "count" : "1"
+          }, {
+            "item" : "101",
+            "count" : "1"
+          }, {
+            "item" : "102",
+            "count" : "1"
+          }, {
+            "item" : "103",
+            "count" : "1"
+          }, {
+            "item" : "104",
+            "count" : "1"
+          }, {
+            "item" : "105",
+            "count" : "1"
+          }, {
+            "item" : "106",
+            "count" : "1"
+          }, {
+            "item" : "107",
+            "count" : "1"
+          }, {
+            "item" : "108",
+            "count" : "1"
+          }, {
+            "item" : "109",
+            "count" : "1"
+          }, {
+            "item" : "11",
+            "count" : "1"
+          }, {
+            "item" : "110",
+            "count" : "1"
+          }, {
+            "item" : "111",
+            "count" : "1"
+          }, {
+            "item" : "112",
+            "count" : "1"
+          }, {
+            "item" : "113",
+            "count" : "1"
+          }, {
+            "item" : "114",
+            "count" : "1"
+          }, {
+            "item" : "115",
+            "count" : "1"
+          }, {
+            "item" : "117",
+            "count" : "1"
+          } ],
+          "smallest" : "1",
+          "not_null" : "222",
+          "cardinality" : "222"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 356987077,
+        "name" : "route_short_name",
+        "dataTypeName" : "text",
+        "description" : "Short name of a route",
+        "fieldName" : "route_short_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1496048,
+        "width" : 173,
+        "cachedContents" : {
+          "largest" : "99",
+          "non_null" : "222",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "1"
+          }, {
+            "item" : "10",
+            "count" : "1"
+          }, {
+            "item" : "100",
+            "count" : "1"
+          }, {
+            "item" : "101",
+            "count" : "1"
+          }, {
+            "item" : "102",
+            "count" : "1"
+          }, {
+            "item" : "103",
+            "count" : "1"
+          }, {
+            "item" : "104",
+            "count" : "1"
+          }, {
+            "item" : "105",
+            "count" : "1"
+          }, {
+            "item" : "106",
+            "count" : "1"
+          }, {
+            "item" : "107",
+            "count" : "1"
+          }, {
+            "item" : "108",
+            "count" : "1"
+          }, {
+            "item" : "109",
+            "count" : "1"
+          }, {
+            "item" : "11",
+            "count" : "1"
+          }, {
+            "item" : "110",
+            "count" : "1"
+          }, {
+            "item" : "111",
+            "count" : "1"
+          }, {
+            "item" : "112",
+            "count" : "1"
+          }, {
+            "item" : "113",
+            "count" : "1"
+          }, {
+            "item" : "114",
+            "count" : "1"
+          }, {
+            "item" : "115",
+            "count" : "1"
+          }, {
+            "item" : "117",
+            "count" : "1"
+          } ],
+          "smallest" : "1",
+          "not_null" : "222",
+          "cardinality" : "222"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "left"
+        }
+      }, {
+        "id" : 356987071,
+        "name" : "route_long_name",
+        "dataTypeName" : "text",
+        "description" : "Full name of a route. This name is generally more descriptive than the route_short_name and will often include the route's destination or stop.",
+        "fieldName" : "route_long_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1496049,
+        "width" : 324,
+        "cachedContents" : {
+          "largest" : "Yellowbird - Century Park - Harry Ainlay",
+          "non_null" : "222",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Mill Woods - Millgate",
+            "count" : "5"
+          }, {
+            "item" : "Northgate - Belvedere",
+            "count" : "3"
+          }, {
+            "item" : "West Edmonton Mall - Westmount",
+            "count" : "3"
+          }, {
+            "item" : "Century Park - Southgate",
+            "count" : "3"
+          }, {
+            "item" : "Century Park - South Campus/Fort Edmonton",
+            "count" : "3"
+          }, {
+            "item" : "Castle Downs - Northgate",
+            "count" : "2"
+          }, {
+            "item" : "Century Park to Mill Woods",
+            "count" : "2"
+          }, {
+            "item" : "Southgate - Bulyea - Leger",
+            "count" : "2"
+          }, {
+            "item" : "Southbound West Edmonton Mall - Lymburn",
+            "count" : "2"
+          }, {
+            "item" : "Jasper Place - Westview Village",
+            "count" : "2"
+          }, {
+            "item" : "Coliseum - Abbottsfield",
+            "count" : "2"
+          }, {
+            "item" : "Knottwood - Lakewood - Mill Woods",
+            "count" : "2"
+          }, {
+            "item" : "Northgate - Fraser",
+            "count" : "2"
+          }, {
+            "item" : "Clareview - Brintnell",
+            "count" : "2"
+          }, {
+            "item" : "Southwood - Mill Woods - CBD",
+            "count" : "2"
+          }, {
+            "item" : "Century Park - Allard",
+            "count" : "2"
+          }, {
+            "item" : "Mill Woods - Southwood",
+            "count" : "2"
+          }, {
+            "item" : "Jasper Place - Rio Terrace",
+            "count" : "2"
+          }, {
+            "item" : "Century Park - Leger",
+            "count" : "2"
+          }, {
+            "item" : "Boonie Doon - Ritchie",
+            "count" : "1"
+          } ],
+          "smallest" : "Abbottsfield - Clareview",
+          "not_null" : "222",
+          "cardinality" : "196"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 356987074,
+        "name" : "route_description",
+        "dataTypeName" : "text",
+        "description" : "Description of route",
+        "fieldName" : "route_description",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26643376,
+        "width" : 171,
+        "cachedContents" : {
+          "non_null" : "0",
+          "null" : "222",
+          "not_null" : "0",
+          "cardinality" : "0"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 356987075,
+        "name" : "route type",
+        "dataTypeName" : "number",
+        "description" : "Type of Transportation used on the route. 0 - Tram, Streetcar; 1 - Subway; 2- Rail; 3- Bus; etc...",
+        "fieldName" : "route_typee",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26643444,
+        "width" : 131,
+        "cachedContents" : {
+          "non_null" : "0",
+          "null" : "222",
+          "not_null" : "0",
+          "sum" : "0",
+          "cardinality" : "0"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 356987076,
+        "name" : "route_url",
+        "dataTypeName" : "url",
+        "description" : "URL of a web page about that particular route",
+        "fieldName" : "route_url",
+        "position" : 8,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26643907,
+        "width" : 128,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 393
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "See Terms of Use"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "jsonQuery" : {
+          "order" : [ {
+            "columnFieldName" : "route_id",
+            "ascending" : true
+          } ]
+        },
+        "custom_fields" : {
+          "Time Frame" : {
+            "Update Frequency" : "When Necessary",
+            "Period of Coverage" : "monthly",
+            "Automated or Manual" : "Automated"
+          },
+          "Key Performance Indicators" : {
+            "Field 2" : ""
+          },
+          "General Information" : {
+            "Purpose" : "To provide a list of all bus routes in Edmonton for cartographic, analysis and tracking purposes.",
+            "Primary Dataset or View" : "Primary"
+          },
+          "Quality Indicators" : {
+            "Duplicates Removed" : "Yes",
+            "Verified for Accuracy" : "Yes"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "k7hy-72gy",
+        "displayName" : "Richard",
+        "screenName" : "Richard",
+        "type" : "interactive",
+        "userSegment" : "site_member"
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 356987069,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "k7hy-72gy",
+        "displayName" : "Richard",
+        "screenName" : "Richard",
+        "type" : "interactive",
+        "userSegment" : "site_member"
+      },
+      "tags" : [ "bus routes", "gtfs", "ets", "transit" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-btu5-hsm5_wp6t", "00000000-0000-0000-5001-25718FBC0D90", 0, 1556063072, null, 1556063072, null, "{ }", "14", "14", "Jasper Place - WEM", null, null, null ]
+, [ "row-pf7f.2nad-qg3y", "00000000-0000-0000-8D4D-455881420E2F", 0, 1556063072, null, 1556063072, null, "{ }", "33", "33", "Meadows - Mgte - Sgte - Riverbend - WEM", null, null, null ]
+, [ "row-54w9.pzgd_ueky", "00000000-0000-0000-6CBA-D71144712581", 0, 1564740903, null, 1564740903, null, "{ }", "54", "54", "South Campus/Fort Edmonton - University", null, null, null ]
+, [ "row-mdfr-s7e9~8azi", "00000000-0000-0000-8254-C24E7A87D075", 0, 1556063072, null, 1556063072, null, "{ }", "49", "49", "Century Park - Blackmud Creek", null, null, null ]
+, [ "row-jgwt.nzpf~2hir", "00000000-0000-0000-356C-F4BFD6C89384", 0, 1564740903, null, 1564740903, null, "{ }", "605", "605", "Wild Rose - AOB - Hardisty", null, null, null ]
+, [ "row-5vxv-23jw-7nix", "00000000-0000-0000-F8B4-624B96560B38", 0, 1564740903, null, 1564740903, null, "{ }", "615", "615", "MWTC-Southwood-Kiniski-AOB-Hardisty", null, null, null ]
+, [ "row-3q94-nknz-pgmr", "00000000-0000-0000-6E55-667FD9B5D932", 0, 1556063072, null, 1556063072, null, "{ }", "114", "114", "Jasper Place - Westview Village", null, null, null ]
+, [ "row-f37z.u3f7-d43n", "00000000-0000-0000-F10A-076182D27D7D", 0, 1564740903, null, 1564740903, null, "{ }", "803", "803", "Mary Butterworth - Lago Lindo - Belle Rive", null, null, null ]
+, [ "row-vgec_r9dd_qqhz", "00000000-0000-0000-956C-4EB038574C9F", 0, 1556063072, null, 1556063072, null, "{ }", "137", "137", "West Edmonton Mall - Clareview", null, null, null ]
+, [ "row-yphu_66e3~bhfy", "00000000-0000-0000-D983-E62CEF005DE5", 0, 1556063072, null, 1556063072, null, "{ }", "99", "99", "Capilano - Coliseum - Belvedere", null, null, null ]
+, [ "row-wwfp.igy8.2ktw", "00000000-0000-0000-3C36-9713A47C3CC8", 0, 1556063072, null, 1556063072, null, "{ }", "325", "325", "Leger - Windermere", null, null, null ]
+, [ "row-mivk_4ujt.u5vi", "00000000-0000-0000-C4C7-5841883DF47F", 0, 1564740903, null, 1564740903, null, "{ }", "612", "612", "Wild Rose-Larkspur-Kiniski-Hardisty", null, null, null ]
+, [ "row-3bx9-ipgg-fh7n", "00000000-0000-0000-9B69-1C92F555FAB7", 0, 1564740903, null, 1564740903, null, "{ }", "399", "399", "Coliseum - Concordia University", null, null, null ]
+, [ "row-javz.vk8g-ae2w", "00000000-0000-0000-F749-AF370DA8EC55", 0, 1556063072, null, 1556063072, null, "{ }", "4", "4", "Lewis Farms - University - Capilano", null, null, null ]
+, [ "row-ehnf_kt2g_hpu7", "00000000-0000-0000-2829-859C79C0EB62", 0, 1564740903, null, 1564740903, null, "{ }", "97", "97", "Mill Woods - MacEwan - NAIT", null, null, null ]
+, [ "row-q36x.7mu4.dwmy", "00000000-0000-0000-F0AC-A951DC804EAE", 0, 1556063072, null, 1556063072, null, "{ }", "47", "47", "Century Park - Allard", null, null, null ]
+, [ "row-64xh~cq3w~rxxe", "00000000-0000-0000-81CC-92E32538C65C", 0, 1556063072, null, 1556063072, null, "{ }", "2", "2", "Lessard - Downtown - Highlands - Clareview", null, null, null ]
+, [ "row-ajdr-93ve-fisk", "00000000-0000-0000-1CF8-B745F329B408", 0, 1556063072, null, 1556063072, null, "{ }", "512", "512", "LRT Late Night Service", null, null, null ]
+, [ "row-gzpd~pzkf.snpz", "00000000-0000-0000-FEEC-97C636588627", 0, 1556063072, null, 1556063072, null, "{ }", "113", "113", "West Edmonton Mall - Jasper Place", null, null, null ]
+, [ "row-8bj5_bjm4~a8up", "00000000-0000-0000-5C16-DAA6A46590D2", 0, 1556063072, null, 1556063072, null, "{ }", "24", "24", "Century Park - Windermere - Leger", null, null, null ]
+, [ "row-a5b5_b7ew_ig4j", "00000000-0000-0000-E1A4-DF23935279B8", 0, 1556063072, null, 1556063072, null, "{ }", "23", "23", "Mill Woods - Leger - WEM", null, null, null ]
+, [ "row-vcth-x7y4-8e6c", "00000000-0000-0000-887F-B8E80F2D04CB", 0, 1556063072, null, 1556063072, null, "{ }", "183", "183", "Abbottsfield - Clareview", null, null, null ]
+, [ "row-jmfs.4ibu.mhi9", "00000000-0000-0000-0618-41E78255E387", 0, 1556063072, null, 1556063072, null, "{ }", "106", "106", "University - Lessard", null, null, null ]
+, [ "row-xtjt.2ewg~g8sp", "00000000-0000-0000-C66F-58872966BD0B", 0, 1556063072, null, 1556063072, null, "{ }", "107", "107", "West Edmonton Mall - Wolf Willow Loop", null, null, null ]
+, [ "row-wiyw.y4mz-3gsv", "00000000-0000-0000-1B0A-00327638DB16", 0, 1564740903, null, 1564740903, null, "{ }", "808", "808", "McNally - Silver Berry", null, null, null ]
+, [ "row-qq2n_cjdg_248z", "00000000-0000-0000-6DD6-C1C7DAED9C77", 0, 1556063072, null, 1556063072, null, "{ }", "301", "301", "Southgate - Century Park", null, null, null ]
+, [ "row-p35d_7f7p-ngik", "00000000-0000-0000-D0AA-B056B468AECA", 0, 1556063072, null, 1556063072, null, "{ }", "3", "3", "Jasper Place - Downtown - Cromdale", null, null, null ]
+, [ "row-c2be.rccx-g8jd", "00000000-0000-0000-DBA3-B69B2650A34A", 0, 1556063072, null, 1556063072, null, "{ }", "35", "35", "Century Park - Leger", null, null, null ]
+, [ "row-qpbr_rjp8-ayme", "00000000-0000-0000-8E73-5D71789164D3", 0, 1556063072, null, 1556063072, null, "{ }", "154", "154", "Northgate - Belvedere", null, null, null ]
+, [ "row-a8sv.yvvd.ucix", "00000000-0000-0000-8109-F2D6CE5C9EA8", 0, 1556063072, null, 1556063072, null, "{ }", "115", "115", "West Edmonton Mall - Northgate", null, null, null ]
+, [ "row-iw2n~w27v~4keq", "00000000-0000-0000-8B82-F1918CE28667", 0, 1556063072, null, 1556063072, null, "{ }", "194", "194", "Schonesee - Eaux Claires", null, null, null ]
+, [ "row-7bgh-xvk6~zqgq", "00000000-0000-0000-E178-BF489055D364", 0, 1556063072, null, 1556063072, null, "{ }", "37", "37", "Century Park - Leger", null, null, null ]
+, [ "row-f33a-7ynn_4yyg", "00000000-0000-0000-EEE9-9C61925090CF", 0, 1556063072, null, 1556063072, null, "{ }", "51", "51", "Parkallen - University", null, null, null ]
+, [ "row-9v9s~uhry-wqk6", "00000000-0000-0000-C604-3A7FE342885C", 0, 1556063072, null, 1556063072, null, "{ }", "13", "13", "Castle Downs - Northgate", null, null, null ]
+, [ "row-2dfw~5ep8_hvpu", "00000000-0000-0000-373A-0D294B8E31A5", 0, 1556063072, null, 1556063072, null, "{ }", "45", "45", "Century Park - Southgate", null, null, null ]
+, [ "row-uks8_yfe7~neqa", "00000000-0000-0000-8A55-3C9C655CECDD", 0, 1564740903, null, 1564740903, null, "{ }", "609", "609", "MWTC - S. Berry - Larkspur -AOB - Hardisty", null, null, null ]
+, [ "row-8vg2_w8eh-w22w", "00000000-0000-0000-35D7-BA56F9DE24F6", 0, 1556063072, null, 1556063072, null, "{ }", "1", "1", "West Edmonton Mall - Downtown - Capilano", null, null, null ]
+, [ "row-6e5g-hzii-gpkz", "00000000-0000-0000-4F69-CD9D30D84FDB", 0, 1556063072, null, 1556063072, null, "{ }", "121", "121", "Westmount - Northgate", null, null, null ]
+, [ "row-qcmd.acpu.abxk", "00000000-0000-0000-B440-DFCDF873D478", 0, 1556063072, null, 1556063072, null, "{ }", "85", "85", "Downtown - Capilano", null, null, null ]
+, [ "row-74b6_scyd.hn6y", "00000000-0000-0000-8871-7389A9340654", 0, 1556063072, null, 1556063072, null, "{ }", "38", "38", "Leger - Southgate", null, null, null ]
+, [ "row-kert~9n4b-88vz", "00000000-0000-0000-BC33-E12F209B64F5", 0, 1556063072, null, 1556063072, null, "{ }", "40", "40", "Century Park - Yellowbird - Southgate", null, null, null ]
+, [ "row-xjp3.e63j_x3am", "00000000-0000-0000-E6C5-7C2B2D04F247", 0, 1556063072, null, 1556063072, null, "{ }", "381", "381", "Hollick Kenyon - West Clareview", null, null, null ]
+, [ "row-ie6b.jvv7.n96m", "00000000-0000-0000-5737-E36B2F5ACB2D", 0, 1556063072, null, 1556063072, null, "{ }", "163", "163", "Eaux Claires - Chambery", null, null, null ]
+, [ "row-u37p_nsq5.brde", "00000000-0000-0000-C091-1CD368E9FF47", 0, 1556063072, null, 1556063072, null, "{ }", "41", "41", "Century Park - Southgate", null, null, null ]
+, [ "row-wpi2_ywxd-c3b7", "00000000-0000-0000-36E6-C7645D3E5E44", 0, 1556063072, null, 1556063072, null, "{ }", "15", "15", "Mill Woods - Downtown - Eaux Claires", null, null, null ]
+, [ "row-mn8j-c74c-tgvv", "00000000-0000-0000-14B7-273BEBE48710", 0, 1556063072, null, 1556063072, null, "{ }", "191", "191", "Eaux Claires - Klarvatten", null, null, null ]
+, [ "row-tczn~qxih-sinq", "00000000-0000-0000-2EC9-7D83BB203749", 0, 1556063072, null, 1556063072, null, "{ }", "9", "9", "Southgate - Downtown - Eaux Claires", null, null, null ]
+, [ "row-r9dd~e5ig~q6ih", "00000000-0000-0000-4239-8BA01BCF095C", 0, 1556063072, null, 1556063072, null, "{ }", "308", "308", "Riverdale - Downtown", null, null, null ]
+, [ "row-pprv~trx5-i8u9", "00000000-0000-0000-89E3-A2432A0E8940", 0, 1564740903, null, 1564740903, null, "{ }", "46", "46", "Yellowbird - Century Park - Harry Ainlay", null, null, null ]
+, [ "row-t88r_bwjg-3yex", "00000000-0000-0000-4ECF-9DB3B9B7FF71", 0, 1556063072, null, 1556063072, null, "{ }", "34", "34", "Southgate - Bulyea - Leger", null, null, null ]
+, [ "row-ueqs_qhyi_h5u4", "00000000-0000-0000-E665-80FA74A06D10", 0, 1556063072, null, 1556063072, null, "{ }", "317", "317", "Jasper Place - Westview Village", null, null, null ]
+, [ "row-8zpd-3i2y_3ajz", "00000000-0000-0000-7A56-DF0A90096CD3", 0, 1556063072, null, 1556063072, null, "{ }", "10", "10", "Clareview - Belvedere - LON - Coliseum", null, null, null ]
+, [ "row-ihce.8vdr-g5wv", "00000000-0000-0000-5EFD-4C2D19E78CCC", 0, 1556063072, null, 1556063072, null, "{ }", "142", "142", "Coliseum - Abbottsfield", null, null, null ]
+, [ "row-3cry.sqbc-wg2d", "00000000-0000-0000-A726-A6179D56C155", 0, 1556063072, null, 1556063072, null, "{ }", "119", "119", "Lewis Farms - Hamptons", null, null, null ]
+, [ "row-qbiw-iija-cnnc", "00000000-0000-0000-1AD1-3BA72A5303FC", 0, 1564740903, null, 1564740903, null, "{ }", "604", "604", "Wild Rose - Kenilworth - McNally", null, null, null ]
+, [ "row-hhk3.xx9b~eykd", "00000000-0000-0000-4170-CC3046285001", 0, 1556063072, null, 1556063072, null, "{ }", "331", "331", "Century Park - Chappelle", null, null, null ]
+, [ "row-afv3~byxz-sca6", "00000000-0000-0000-892A-CD4F41CE0A1D", 0, 1564740903, null, 1564740903, null, "{ }", "606", "606", "Mill Woods - McNally", null, null, null ]
+, [ "row-cwpp_hrdt.pzeg", "00000000-0000-0000-5049-F38333EE33D1", 0, 1556063072, null, 1556063072, null, "{ }", "185", "185", "Clareview - Abbottsfield", null, null, null ]
+, [ "row-m88q_3d24.djdp", "00000000-0000-0000-E188-0E45E0835CD6", 0, 1556063072, null, 1556063072, null, "{ }", "111", "111", "Downtown - West Edmonton Mall", null, null, null ]
+, [ "row-mt58~c9et-jknn", "00000000-0000-0000-50F8-16481D982812", 0, 1564740903, null, 1564740903, null, "{ }", "602", "602", "Windsor Park - Belgravia - Strathcona", null, null, null ]
+, [ "row-y2ek.a8qy_nfd6", "00000000-0000-0000-6683-A94BBBA45594", 0, 1556063072, null, 1556063072, null, "{ }", "90", "90", "Meadows - Downtown", null, null, null ]
+, [ "row-gwjh-fsjw-u8xh", "00000000-0000-0000-6853-E54483AF5638", 0, 1556063072, null, 1556063072, null, "{ }", "161", "161", "Castle Downs - Northgate", null, null, null ]
+, [ "row-433u-pnt8.fmb8", "00000000-0000-0000-6F0D-7FB299CAFB9B", 0, 1556063072, null, 1556063072, null, "{ }", "7", "7", "Jasper Place - Downtown - University", null, null, null ]
+, [ "row-iqgu~s87v_a66d", "00000000-0000-0000-ADA8-331664E5EDCB", 0, 1556063072, null, 1556063072, null, "{ }", "39", "39", "Century Park - MacEwan - Rutherford", null, null, null ]
+, [ "row-3qr3.mt62_pwkq", "00000000-0000-0000-37D0-6BDF8C6F0D34", 0, 1556063072, null, 1556063072, null, "{ }", "84", "84", "Millgate - Capilano", null, null, null ]
+, [ "row-ryjt_aqiu.dc4h", "00000000-0000-0000-43B3-AACFBDA7F7C6", 0, 1556063072, null, 1556063072, null, "{ }", "31", "31", "Southgate - Bulyea - Leger", null, null, null ]
+, [ "row-29cr_brgz-rghs", "00000000-0000-0000-E039-AF2A352FA49A", 0, 1556063072, null, 1556063072, null, "{ }", "48", "48", "Century Park - Blackburne", null, null, null ]
+, [ "row-bs3e.db9c-2a9z", "00000000-0000-0000-E42A-FA5BEDAD89FA", 0, 1556063072, null, 1556063072, null, "{ }", "502", "502", "LRT Metro Line", null, null, null ]
+, [ "row-bpv3_ewxz-ss5z", "00000000-0000-0000-580A-FD6DDC7980B9", 0, 1556063072, null, 1556063072, null, "{ }", "501", "501", "LRT Capital Line", null, null, null ]
+, [ "row-5ug4_8afm~kqd8", "00000000-0000-0000-A10D-E77ECEC5F95D", 0, 1556063072, null, 1556063072, null, "{ }", "141", "141", "Coliseum - Abbottsfield", null, null, null ]
+, [ "row-4s42~ndt7_nvjq", "00000000-0000-0000-0219-4D272232E996", 0, 1556063072, null, 1556063072, null, "{ }", "101", "101", "West Edmonton Mall - Wedgewood", null, null, null ]
+, [ "row-va73-av3c-e3fc", "00000000-0000-0000-9A7F-1C927ACA9122", 0, 1556063072, null, 1556063072, null, "{ }", "152", "152", "Northgate - Belvedere", null, null, null ]
+, [ "row-r24n_deyv.nq4m", "00000000-0000-0000-858D-D73A20A6F955", 0, 1556063072, null, 1556063072, null, "{ }", "44", "44", "Southgate - Twin Brooks", null, null, null ]
+, [ "row-mtud~9phe~ib52", "00000000-0000-0000-4AF9-2375E339033B", 0, 1556063072, null, 1556063072, null, "{ }", "333", "333", "Lewis Farms - Rosenthal", null, null, null ]
+, [ "row-7vy7.saz4.zn7k", "00000000-0000-0000-17A7-565339AFE13D", 0, 1556063072, null, 1556063072, null, "{ }", "17", "17", "Century Park - Southgate", null, null, null ]
+, [ "row-dhn3_7t4a-7q6w", "00000000-0000-0000-3014-6849F62C0B97", 0, 1556063072, null, 1556063072, null, "{ }", "11", "11", "Clareview - Londonderry - Northgate", null, null, null ]
+, [ "row-w6r2_5yni_jfym", "00000000-0000-0000-3CBC-C4116F32B324", 0, 1564740903, null, 1564740903, null, "{ }", "98", "98", "West Edmonton Mall - NAIT", null, null, null ]
+, [ "row-u8zy.vwvk.u5iv", "00000000-0000-0000-CCF5-DFAA00063753", 0, 1556063072, null, 1556063072, null, "{ }", "304", "304", "Southgate - Southpark Village", null, null, null ]
+, [ "row-7rc3.ja95.57fq", "00000000-0000-0000-17A6-797D9AB60B70", 0, 1564740903, null, 1564740903, null, "{ }", "601", "601", "Ormsby - Wedgewood - ABM - Ross Sheppard", null, null, null ]
+, [ "row-vmsx-mhtv.gdpe", "00000000-0000-0000-E38A-A7F2666F2A13", 0, 1556063072, null, 1556063072, null, "{ }", "145", "145", "Eaux Claires - Lago Lindo", null, null, null ]
+, [ "row-edzn.gv48.dfr7", "00000000-0000-0000-B678-E8DADBE63D50", 0, 1556063072, null, 1556063072, null, "{ }", "134", "134", "Northgate - Downtown", null, null, null ]
+, [ "row-nxj7~bfu4~xxae", "00000000-0000-0000-3018-B4EB085450E8", 0, 1556063072, null, 1556063072, null, "{ }", "88", "88", "Capilano - Downtown", null, null, null ]
+, [ "row-z5u5.u5jf_py3v", "00000000-0000-0000-5616-EBA52D3262F0", 0, 1564740903, null, 1564740903, null, "{ }", "187", "187", "Londonderry - Clareview Rd/132A Ave", null, null, null ]
+, [ "row-xf5m_dx67_wvqc", "00000000-0000-0000-EB56-D02F02A2FC33", 0, 1556063072, null, 1556063072, null, "{ }", "318", "318", "Windsor Park - University - Belgravia", null, null, null ]
+, [ "row-ftc5-8n8j_ncbf", "00000000-0000-0000-A8DE-54D5A83657F6", 0, 1556063072, null, 1556063072, null, "{ }", "580", "580", "Fort Saskatchewan Commuter", null, null, null ]
+, [ "row-uati.kwej~cif5", "00000000-0000-0000-46E3-3BCAA4897CB2", 0, 1556063072, null, 1556063072, null, "{ }", "319", "319", "Southgate - Parkallen - Belgravia", null, null, null ]
+, [ "row-s7at_kdpm.xa3d", "00000000-0000-0000-0529-A6E843DA86C2", 0, 1556063072, null, 1556063072, null, "{ }", "125", "125", "Belvedere - Westmount - Jasper Place", null, null, null ]
+, [ "row-5z5h.tb6b-9eqd", "00000000-0000-0000-6D11-3CAE3471EF6A", 0, 1556063072, null, 1556063072, null, "{ }", "164", "164", "Northgate - Rapperswill", null, null, null ]
+, [ "row-tci6_iy8t.cmjf", "00000000-0000-0000-AE6F-B22524FC8CA4", 0, 1556063072, null, 1556063072, null, "{ }", "540", "540", "Beaumont - Edmonton", null, null, null ]
+, [ "row-g9ej~3xi2_6tgt", "00000000-0000-0000-747E-0998214132DC", 0, 1556063072, null, 1556063072, null, "{ }", "124", "124", "Westmount - Jasper Place", null, null, null ]
+, [ "row-mxmb.zvmq_tz5a", "00000000-0000-0000-D3C4-8124DB0D6E99", 0, 1556063072, null, 1556063072, null, "{ }", "589", "589", "Edmonton Waste Management Centre", null, null, null ]
+, [ "row-vrqe-z4at.egdt", "00000000-0000-0000-4155-273E0CE6548B", 0, 1564740903, null, 1564740903, null, "{ }", "809", "809", "Strathcona - Belgravia - Windsor Park", null, null, null ]
+, [ "row-hc4q.pifx_exfb", "00000000-0000-0000-D9F6-F799D07E5BE1", 0, 1564740903, null, 1564740903, null, "{ }", "603", "603", "Jackson Heights - Father Michael Troy", null, null, null ]
+, [ "row-jcpk-t6dq~qbdp", "00000000-0000-0000-2ED8-4D32053A3A23", 0, 1556063072, null, 1556063072, null, "{ }", "321", "321", "Millgate - Strathcona Industrial", null, null, null ]
+, [ "row-2mie-842y~gcc2", "00000000-0000-0000-15F2-0DC5615B46CB", 0, 1564740903, null, 1564740903, null, "{ }", "613", "613", "Southgate - Strathcona", null, null, null ]
+, [ "row-ia57_v8w4.8mka", "00000000-0000-0000-EA1A-E3F666A04E9E", 0, 1556063072, null, 1556063072, null, "{ }", "192", "192", "Clareview - Brintnell", null, null, null ]
+, [ "row-hypz-6ym6.kptc", "00000000-0000-0000-FB14-2D980926C516", 0, 1564740903, null, 1564740903, null, "{ }", "801", "801", "Ottewell - Austin O'Brien - Burnewood", null, null, null ]
+, [ "row-uz2q_icaf.4cms", "00000000-0000-0000-D8EF-224C6A20670F", 0, 1556063072, null, 1556063072, null, "{ }", "5", "5", "Westmount - Downtown - Coliseum", null, null, null ]
+, [ "row-y9mr.zcub.fmfc", "00000000-0000-0000-59D4-37F035272821", 0, 1556063072, null, 1556063072, null, "{ }", "16", "16", "Castle Downs - Northgate - Gov't Centre", null, null, null ]
+, [ "row-64mf~mf92~zfk2", "00000000-0000-0000-94F5-66D904459902", 0, 1564740903, null, 1564740903, null, "{ }", "610", "610", "Rapperswill - Ross Shep - Arch Mac", null, null, null ]
+, [ "row-kkuz_shtk.sxr6", "00000000-0000-0000-B8E7-B9F6B260196C", 0, 1556063072, null, 1556063072, null, "{ }", "108", "108", "Lewis Farms - Potter Greens", null, null, null ]
+, [ "row-8frz_vxsy.hfp2", "00000000-0000-0000-E4C8-2016FD7C8AAA", 0, 1564740903, null, 1564740903, null, "{ }", "165", "165", "Castle Downs - 85 St & 132 Ave", null, null, null ]
+, [ "row-kudn~a7qs~eaeu", "00000000-0000-0000-4009-BA8FC0DC12E5", 0, 1556063072, null, 1556063072, null, "{ }", "193", "193", "Clareview - Brintnell", null, null, null ]
+, [ "row-rr3j.qzqa.u5c3", "00000000-0000-0000-B651-C8B958D93FFA", 0, 1556063072, null, 1556063072, null, "{ }", "182", "182", "Northgate - Fraser", null, null, null ]
+, [ "row-dm4z-69ge~dg48", "00000000-0000-0000-E670-D52CCB2D7779", 0, 1564740903, null, 1564740903, null, "{ }", "806", "806", "Ross Sheppard - Eaux Claires", null, null, null ]
+, [ "row-rj9d-6cyc_u4wm", "00000000-0000-0000-4FCA-C14E3A5C057A", 0, 1556063072, null, 1556063072, null, "{ }", "26", "26", "Leger - Windemere", null, null, null ]
+, [ "row-eu9p-upia~tsuf", "00000000-0000-0000-4178-3949DA83FB09", 0, 1556063072, null, 1556063072, null, "{ }", "25", "25", "Leger - Ambleside - Century Park", null, null, null ]
+, [ "row-ir2z_vkug_mg9k", "00000000-0000-0000-99D8-1930D0C6EE20", 0, 1564740903, null, 1564740903, null, "{ }", "607", "607", "Meadows - Mill Woods", null, null, null ]
+, [ "row-z5qh_gec2.u9xu", "00000000-0000-0000-0977-3CD88052DD00", 0, 1564740903, null, 1564740903, null, "{ }", "807", "807", "Father Michael Troy - Kiniski - Jackson Heights", null, null, null ]
+, [ "row-67hj_qzd3~8zv3", "00000000-0000-0000-54D0-BEAD2F80ED7B", 0, 1564740903, null, 1564740903, null, "{ }", "804", "804", "Avalon - Southgate", null, null, null ]
+, [ "row-xcwc_4jtt.fjrv", "00000000-0000-0000-5204-867AE845CA70", 0, 1564740903, null, 1564740903, null, "{ }", "608", "608", "MWTC - Silver Berry - Larkspur - McNally", null, null, null ]
+, [ "row-7p3c_j7as_z8pd", "00000000-0000-0000-0BBF-FC0308C253C8", 0, 1564740903, null, 1564740903, null, "{ }", "188", "188", "Clareview Rd/28 St - Eaux Claires", null, null, null ]
+, [ "row-6nhn~n4ec_hcjy", "00000000-0000-0000-9351-4AF92EB3F17F", 0, 1564740903, null, 1564740903, null, "{ }", "186", "186", "Northgate - Fraser", null, null, null ]
+, [ "row-3uga~esfx~r8ba", "00000000-0000-0000-B4C0-4186494149EF", 0, 1564740903, null, 1564740903, null, "{ }", "614", "614", "Mill Woods - Harry Ainlay", null, null, null ]
+, [ "row-it2u.5yck_64k2", "00000000-0000-0000-5DF5-F148D411B6DE", 0, 1564740903, null, 1564740903, null, "{ }", "810", "810", "Ottewell-AOB - Kiniski Gdn-Southwood-MWTC", null, null, null ]
+, [ "row-gngs.42fp-xzzc", "00000000-0000-0000-4834-EBFADA6E6054", 0, 1564740903, null, 1564740903, null, "{ }", "802", "802", "Ottewell-AOB - Jackson Hts-Larkspur-Silver Berry", null, null, null ]
+, [ "row-dwgq~ew8r-zd7w", "00000000-0000-0000-5AC7-DB8DD1D77768", 0, 1564740903, null, 1564740903, null, "{ }", "800", "800", "McNally - Kiniski Gdns-Southwood-MWTC", null, null, null ]
+, [ "row-3gym_7ii9.dkra", "00000000-0000-0000-0839-2066DFE9212F", 0, 1564740903, null, 1564740903, null, "{ }", "611", "611", "Wild Rose - Larkspur - McNally", null, null, null ]
+, [ "row-mw26.eevm-ryyi", "00000000-0000-0000-DE3D-35D5D60A5D1F", 0, 1564740903, null, 1564740903, null, "{ }", "805", "805", "Arch Mac - NGTE - Eaux Claires", null, null, null ]
+, [ "row-qvw6.y48y-ywx8", "00000000-0000-0000-E636-81EB9D272ACD", 0, 1564740903, null, 1564740903, null, "{ }", "167", "167", "Castle Downs - 95 St & 132 Ave", null, null, null ]
+, [ "row-w9b3.f3m2~fu5z", "00000000-0000-0000-AA34-28A48D72B281", 0, 1566555335, null, 1566555335, null, "{ }", "812", "812", "Wagner - MWTC", null, null, null ]
+, [ "row-mt8b.f3jm~7sif", "00000000-0000-0000-EFDF-8D305B207E64", 0, 1567524189, null, 1567524189, null, "{ }", "616", "616", "Southgate - Avalon", null, null, null ]
+, [ "row-excy_hhny-hwns", "00000000-0000-0000-5C5B-3BAEE497E5CE", 0, 1576235608, null, 1576235608, null, "{ }", "104", "104", "West Lymburn - South Campus/Fort Edmonton", null, null, null ]
+, [ "row-g5y4_gi3e~zvk3", "00000000-0000-0000-9CE5-DFB7F827E327", 0, 1576235608, null, 1576235608, null, "{ }", "811", "811", "MWTC-Kate Chegwin-Kiniski - Larkspur-Mdow", null, null, null ]
+, [ "row-3byv_eeu3-nb6q", "00000000-0000-0000-F62E-9FF6C44E3430", 0, 1578654733, null, 1578654733, null, "{ }", "813", "813", "Southbound West Edmonton Mall - Lymburn", null, null, null ]
+, [ "row-jbr7.dmst~h2az", "00000000-0000-0000-CD25-254F6C1CDB46", 0, 1556063072, null, 1556063072, null, "{ }", "100", "100", "Lewis Farms - Downtown", null, null, null ]
+, [ "row-2m2c~g382~k779", "00000000-0000-0000-ADBA-1AE72F9E9A77", 0, 1556063072, null, 1556063072, null, "{ }", "312", "312", "Northgate - Londonderry Mall", null, null, null ]
+, [ "row-62rs.ddqq~6taa", "00000000-0000-0000-2C3C-3E7D55792257", 0, 1556063072, null, 1556063072, null, "{ }", "180", "180", "Abbottsfield - Eaux Claires", null, null, null ]
+, [ "row-t7ak~euvj_kee7", "00000000-0000-0000-AE20-DDF8059BD901", 0, 1556063072, null, 1556063072, null, "{ }", "169", "169", "Northgate - Canossa", null, null, null ]
+, [ "row-bpth.sg59-gkfj", "00000000-0000-0000-BE6A-5DE9F4F2F71A", 0, 1556063072, null, 1556063072, null, "{ }", "347", "347", "Century Park - Allard", null, null, null ]
+, [ "row-jnru.fi2w-y5n9", "00000000-0000-0000-61FC-E5625D246F9E", 0, 1556063072, null, 1556063072, null, "{ }", "311", "311", "Jasper Place - West Edmonton Mall", null, null, null ]
+, [ "row-q2ux-a6fw-mhtu", "00000000-0000-0000-696B-223C78ECE58D", 0, 1556063072, null, 1556063072, null, "{ }", "150", "150", "Eaux Claires - West Edmonton Mall", null, null, null ]
+, [ "row-62m4.fyss.v6aa", "00000000-0000-0000-97A7-BDCE0C681002", 0, 1556063072, null, 1556063072, null, "{ }", "87", "87", "Millgate - Downtown", null, null, null ]
+, [ "row-fr3t_k4kp-f2ym", "00000000-0000-0000-334F-7DC461801068", 0, 1556063072, null, 1556063072, null, "{ }", "126", "126", "West Edmonton Mall - Westmount", null, null, null ]
+, [ "row-s3zc-d2v4_ca66", "00000000-0000-0000-312F-63CFCF60381F", 0, 1556063072, null, 1556063072, null, "{ }", "168", "168", "Northgate - Cumberland", null, null, null ]
+, [ "row-4w6n~u3jr_6da2", "00000000-0000-0000-A646-B1A70CD623B6", 0, 1556063072, null, 1556063072, null, "{ }", "120", "120", "Jasper Place - Stadium", null, null, null ]
+, [ "row-xv42-c2in-yrru", "00000000-0000-0000-5015-B5C3A0B6F770", 0, 1556063072, null, 1556063072, null, "{ }", "80", "80", "Capilano - Southgate", null, null, null ]
+, [ "row-gfze-a2it_w5rk", "00000000-0000-0000-1F79-4C5FCE93D66E", 0, 1556063072, null, 1556063072, null, "{ }", "129", "129", "West Edmonton Mall - Westmount", null, null, null ]
+, [ "row-duhn.fnt4.g8ks", "00000000-0000-0000-97AF-1539B78A27EA", 0, 1556063072, null, 1556063072, null, "{ }", "181", "181", "Clareview - Belvedere", null, null, null ]
+, [ "row-cdsi-ab8c~35kg", "00000000-0000-0000-66FA-802A8BD8ED47", 0, 1556063072, null, 1556063072, null, "{ }", "130", "130", "Northgate - Government Centre", null, null, null ]
+, [ "row-5xjj~39v8-ufj8", "00000000-0000-0000-19F9-20E4DA87CC60", 0, 1556063072, null, 1556063072, null, "{ }", "68", "68", "Mill Woods - Millgate", null, null, null ]
+, [ "row-j6rp~4frw_fqn3", "00000000-0000-0000-136F-CB493025ADB3", 0, 1556063072, null, 1556063072, null, "{ }", "95", "95", "Mill Woods - Laurel - Meadows", null, null, null ]
+, [ "row-38uq~uqxa-psvj", "00000000-0000-0000-DAC9-AE2CD6494EF1", 0, 1556063072, null, 1556063072, null, "{ }", "339", "339", "Century Park - Heritage Valley", null, null, null ]
+, [ "row-5q2d.n334~cnjw", "00000000-0000-0000-7B48-7CC84BAD6277", 0, 1556063072, null, 1556063072, null, "{ }", "309", "309", "Riverdale - Kingsway-RAH", null, null, null ]
+, [ "row-xr6s.wugq.c3wz", "00000000-0000-0000-83AD-508B1DAC6086", 0, 1556063072, null, 1556063072, null, "{ }", "71", "71", "Mill Woods - Government Centre", null, null, null ]
+, [ "row-3z3i-nian.wqyi", "00000000-0000-0000-F6D6-DEBD77892C76", 0, 1556063072, null, 1556063072, null, "{ }", "133", "133", "Lewis Farms - University", null, null, null ]
+, [ "row-dd26_hn9i-arxw", "00000000-0000-0000-5208-87B9A20644AC", 0, 1556063072, null, 1556063072, null, "{ }", "61", "61", "Mill Woods - Millgate", null, null, null ]
+, [ "row-363a.8zu4.56i6", "00000000-0000-0000-D271-56DA14A31F4C", 0, 1556063072, null, 1556063072, null, "{ }", "340", "340", "Mill Woods - Millgate", null, null, null ]
+, [ "row-3r4w-3t46-c3w8", "00000000-0000-0000-D327-F04628FA3C95", 0, 1556063072, null, 1556063072, null, "{ }", "65", "65", "Knottwood - Lakewood - Mill Woods", null, null, null ]
+, [ "row-4ysf.5mv5.q2nj", "00000000-0000-0000-63CA-05998A429EE1", 0, 1556063072, null, 1556063072, null, "{ }", "70", "70", "Mill Woods - 99 St & 82 Av - Downtown", null, null, null ]
+, [ "row-7zc4.4nuv.xf8f", "00000000-0000-0000-64E3-8258326F98B7", 0, 1556063072, null, 1556063072, null, "{ }", "81", "81", "Mill Woods - Downtown", null, null, null ]
+, [ "row-q5sm.s3c6.ztmh", "00000000-0000-0000-F05C-D07119CD58B3", 0, 1556063072, null, 1556063072, null, "{ }", "8", "8", "Mill Woods - Downtown - Abbottsfield", null, null, null ]
+, [ "row-szuu_mfgb-f8d8", "00000000-0000-0000-CC70-552CEAD56931", 0, 1556063072, null, 1556063072, null, "{ }", "118", "118", "Jasper Place - Rio Terrace", null, null, null ]
+, [ "row-hyfb~ebdu_aub2", "00000000-0000-0000-F874-10183EC64FFB", 0, 1556063072, null, 1556063072, null, "{ }", "67", "67", "Mill Woods - Silver Berry - Meadows", null, null, null ]
+, [ "row-6a56~unvq_kwxi", "00000000-0000-0000-A53E-5851D04DFA0F", 0, 1556063072, null, 1556063072, null, "{ }", "60", "60", "Mill Woods - Millgate", null, null, null ]
+, [ "row-d2n7~4gar.p2x6", "00000000-0000-0000-D799-09382A8990FF", 0, 1556063072, null, 1556063072, null, "{ }", "310", "310", "Jasper Place - Rio Terrace", null, null, null ]
+, [ "row-4cji-xvfx~zxai", "00000000-0000-0000-2209-C8A2873CE6E5", 0, 1556063072, null, 1556063072, null, "{ }", "361", "361", "Mill Woods - Millgate", null, null, null ]
+, [ "row-bivy-48bk.r45w", "00000000-0000-0000-4869-9E3C69D6E0C5", 0, 1556063072, null, 1556063072, null, "{ }", "362", "362", "Mill Woods - Southwood", null, null, null ]
+, [ "row-u6xg.933s.j5gx", "00000000-0000-0000-F345-BE7B2E121E25", 0, 1556063072, null, 1556063072, null, "{ }", "82", "82", "Downtown - Mill Woods", null, null, null ]
+, [ "row-6j53-73z5~q876", "00000000-0000-0000-016C-8E86B96DE7B2", 0, 1556063072, null, 1556063072, null, "{ }", "363", "363", "Mill Woods - Southwood", null, null, null ]
+, [ "row-7jm8~fnu6~kncu", "00000000-0000-0000-3BB8-ECA1CA39B2D9", 0, 1556063072, null, 1556063072, null, "{ }", "370", "370", "Millgate - Mill Woods", null, null, null ]
+, [ "row-h55v~96et.d2n3", "00000000-0000-0000-5816-730074A1F4E3", 0, 1556063072, null, 1556063072, null, "{ }", "92", "92", "Millgate - Pylypow Industrial", null, null, null ]
+, [ "row-xxpu.xz2e-w6mc", "00000000-0000-0000-DB32-320693563F65", 0, 1556063072, null, 1556063072, null, "{ }", "64", "64", "Knottwood - Lakewood - Mill Woods", null, null, null ]
+, [ "row-zc9w~7u4f_j9u6", "00000000-0000-0000-8FBB-63D53C9B3AB3", 0, 1562926379, null, 1562926379, null, "{ }", "138", "138", "Wedgewood - South Campus/Fort Edmonton", null, null, null ]
+, [ "row-8skb.wi4b~vhpn", "00000000-0000-0000-0512-3ED288E5B051", 0, 1562926379, null, 1562926379, null, "{ }", "79", "79", "Century Park to Mill Woods", null, null, null ]
+, [ "row-s434.km3x~w3vs", "00000000-0000-0000-EAE8-F3EB974D9685", 0, 1562926379, null, 1562926379, null, "{ }", "128", "128", "Government Centre - Castledowns", null, null, null ]
+, [ "row-mucs-htq4~6m47", "00000000-0000-0000-C3F3-F8CF3C61C655", 0, 1562926379, null, 1562926379, null, "{ }", "195", "195", "Claireview - McConachie", null, null, null ]
+, [ "row-up5e.bku6.g7q6", "00000000-0000-0000-DC6F-2FB4AB4A0AEE", 0, 1562926379, null, 1562926379, null, "{ }", "6", "6", "Millwoods TC - Southgate", null, null, null ]
+, [ "row-2swn.gjrm~53cw", "00000000-0000-0000-A0DA-784EF83028BF", 0, 1562926379, null, 1562926379, null, "{ }", "30", "30", "Century Park - South Campus/Fort Edmonton", null, null, null ]
+, [ "row-5c9w_47be_wzz9", "00000000-0000-0000-0F14-078AD7DB6F5A", 0, 1562926379, null, 1562926379, null, "{ }", "103", "103", "West Edmonton Mall to Cameron Heights", null, null, null ]
+, [ "row-r63b~hczk-zttc", "00000000-0000-0000-5A03-F051AB9AE62D", 0, 1562926379, null, 1562926379, null, "{ }", "105", "105", "Lessard to South Campus/Fort Edmonton", null, null, null ]
+, [ "row-3y8f_6rh2_gpct", "00000000-0000-0000-B454-2F97516D6A1E", 0, 1562926379, null, 1562926379, null, "{ }", "153", "153", "Northgate - Belvedere", null, null, null ]
+, [ "row-ckj4_svhp~9ijz", "00000000-0000-0000-CE3D-D999FD7EBD65", 0, 1562926379, null, 1562926379, null, "{ }", "53", "53", "Southgate - South Campus/Fort Edmonton", null, null, null ]
+, [ "row-y7eg~shxf_6kpe", "00000000-0000-0000-E006-9D8105C8077E", 0, 1562926379, null, 1562926379, null, "{ }", "50", "50", "South Campus/Fort Edmonton - Southgate", null, null, null ]
+, [ "row-3gxw_yp5m~bm6b", "00000000-0000-0000-57B1-655C19A9448A", 0, 1562926379, null, 1562926379, null, "{ }", "122", "122", "West Edmonton Mall - Westmount", null, null, null ]
+, [ "row-57fs-nu9p_cr7i", "00000000-0000-0000-34B3-994CF8DBF507", 0, 1562926379, null, 1562926379, null, "{ }", "151", "151", "Castle Downs - Downtown - King Edward Park", null, null, null ]
+, [ "row-m28t-7eid-efiz", "00000000-0000-0000-694F-35069D3CC4BF", 0, 1562926379, null, 1562926379, null, "{ }", "78", "78", "Century Park to Mill Woods", null, null, null ]
+, [ "row-efke-6vkj-8p6v", "00000000-0000-0000-85B9-8D3EACC8BF70", 0, 1562926379, null, 1562926379, null, "{ }", "69", "69", "Mill Woods TC - Meadows - Millgate", null, null, null ]
+, [ "row-f8xv-ja4x_wvxs", "00000000-0000-0000-0354-36B02A6274E7", 0, 1562926379, null, 1562926379, null, "{ }", "55", "55", "Southgate - Belgravia", null, null, null ]
+, [ "row-pmj5.zvki_qkdc", "00000000-0000-0000-1BF3-F4808385D4E4", 0, 1562926379, null, 1562926379, null, "{ }", "77", "77", "Mill Woods to Century Park", null, null, null ]
+, [ "row-w6rc~ubd9_xgca", "00000000-0000-0000-D8EB-F7655F8B67B2", 0, 1562926379, null, 1562926379, null, "{ }", "322", "322", "Bonnie Doon - Central Baptist Manor", null, null, null ]
+, [ "row-4hcb_dtac.8543", "00000000-0000-0000-345A-020FCBF66D38", 0, 1562926379, null, 1562926379, null, "{ }", "303", "303", "Northgate Mistatim Industrial", null, null, null ]
+, [ "row-wfjf_xqwz.rsbj", "00000000-0000-0000-C05F-11087C20A96E", 0, 1562926379, null, 1562926379, null, "{ }", "160", "160", "Oxford - Goverment Centre", null, null, null ]
+, [ "row-39ww.apfq~9muj", "00000000-0000-0000-706D-7B029EDC3BD0", 0, 1562926379, null, 1562926379, null, "{ }", "190", "190", "Eaux Claires - Clareview", null, null, null ]
+, [ "row-wt39-qkiw~kxd2", "00000000-0000-0000-727C-D22657EF293D", 0, 1562926379, null, 1562926379, null, "{ }", "123", "123", "Jasper Place -  Westmount", null, null, null ]
+, [ "row-njx9~mxku~9ppd", "00000000-0000-0000-2D72-D401D3BA5F37", 0, 1562926379, null, 1562926379, null, "{ }", "315", "315", "Lewis Farm - Winterburn Industrial", null, null, null ]
+, [ "row-6y5h-83vj_tfcw", "00000000-0000-0000-021A-C81F06C13754", 0, 1562926379, null, 1562926379, null, "{ }", "109", "109", "West Edmonton Mall - Jasper Place - Downtown", null, null, null ]
+, [ "row-trvx_uynb-pvsu", "00000000-0000-0000-3ED7-805EAB70FF29", 0, 1562926379, null, 1562926379, null, "{ }", "747", "747", "Century Park - International Airport", null, null, null ]
+, [ "row-e9th.usgr_f5gc", "00000000-0000-0000-8E25-FEAA9A019D7E", 0, 1562926379, null, 1562926379, null, "{ }", "72", "72", "Southbound Millgate to Mill Woods", null, null, null ]
+, [ "row-84ic-n7ub~m8fx", "00000000-0000-0000-BA48-1E29EF3C2BB9", 0, 1562926379, null, 1562926379, null, "{ }", "59", "59", "Clockwise Mill Woods to South Common to Mill Woods", null, null, null ]
+, [ "row-8xdv_hhtz-i7ph", "00000000-0000-0000-BF92-59126D36F402", 0, 1562926379, null, 1562926379, null, "{ }", "302", "302", "Claireview - Alberta Hospital - Evergreen", null, null, null ]
+, [ "row-5y6e~btcu_hrw8", "00000000-0000-0000-9102-C3A90C368D53", 0, 1562926379, null, 1562926379, null, "{ }", "139", "139", "The Grange - South Campus/Fort Edmonton", null, null, null ]
+, [ "row-jqny.dh7z.uubn", "00000000-0000-0000-4757-0F08BF662A64", 0, 1562926379, null, 1562926379, null, "{ }", "32", "32", "South Campus/Fort Edmonton - Brander Gardens", null, null, null ]
+, [ "row-3iau_eurw.vjhr", "00000000-0000-0000-AFA5-F9041554083A", 0, 1562926379, null, 1562926379, null, "{ }", "110", "110", "West Edmonton Mall - Wolf Willow -Lessard", null, null, null ]
+, [ "row-zezt.i847-xvsf", "00000000-0000-0000-E9BA-6F7BB11C85A1", 0, 1562926379, null, 1562926379, null, "{ }", "560", "560", "Spruce Grove - Edmonton (Downtown)", null, null, null ]
+, [ "row-bn85-fdgy.ax22", "00000000-0000-0000-8242-52CF33773DFB", 0, 1562926379, null, 1562926379, null, "{ }", "74", "74", "Mill Woods to Century Park to Southgate", null, null, null ]
+, [ "row-9x45~szeu-7gif", "00000000-0000-0000-897C-6BE4BFC2A9B3", 0, 1562926379, null, 1562926379, null, "{ }", "184", "184", "Clareview to Evergreen via Alberta Hospital", null, null, null ]
+, [ "row-6ckr_7qsk.s27h", "00000000-0000-0000-907F-A9041315C476", 0, 1562926379, null, 1562926379, null, "{ }", "117", "117", "West Edmonton Mall - Lewis Farms - Hamptons", null, null, null ]
+, [ "row-n96g.949r.utkb", "00000000-0000-0000-E3D3-2C5CBFE99BDE", 0, 1562926379, null, 1562926379, null, "{ }", "306", "306", "Meadows to Bonnie Doon via Maple Ridge", null, null, null ]
+, [ "row-7fpb.bsfm~5uuw", "00000000-0000-0000-29CF-8C7694AA50E3", 0, 1562926379, null, 1562926379, null, "{ }", "561", "561", "NAIT - Acheson", null, null, null ]
+, [ "row-3mes.avaa.367r", "00000000-0000-0000-A175-3F89890CB99F", 0, 1562926379, null, 1562926379, null, "{ }", "94", "94", "Capilano - University", null, null, null ]
+, [ "row-5kmm.cjwf.pq2f", "00000000-0000-0000-F7C7-D26857442638", 0, 1562926379, null, 1562926379, null, "{ }", "66", "66", "Mill Woods - Millgate - CBD", null, null, null ]
+, [ "row-5xcs-q4q9_hex4", "00000000-0000-0000-0E43-F2389BBEB893", 0, 1562926379, null, 1562926379, null, "{ }", "305", "305", "Westmount- Jasper Gates", null, null, null ]
+, [ "row-a3cm.96jd-2gw8", "00000000-0000-0000-66C0-4CA6BD6B5F9E", 0, 1562926379, null, 1562926379, null, "{ }", "162", "162", "Castle Downs - Eaux Clares - Downtown", null, null, null ]
+, [ "row-kfx5.sjhe~3z6y", "00000000-0000-0000-0D68-E85FEE7AC1F1", 0, 1562926379, null, 1562926379, null, "{ }", "112", "112", "West Edmonton Mall -  Capilano", null, null, null ]
+, [ "row-m9kb.wq6m_ffn2", "00000000-0000-0000-11CD-EA9DD674657B", 0, 1562926379, null, 1562926379, null, "{ }", "83", "83", "Bonnie Doon- Maple Ridge - Meadows", null, null, null ]
+, [ "row-x4te.su65~xbvx", "00000000-0000-0000-CB2E-E088F5D07FE8", 0, 1562926379, null, 1562926379, null, "{ }", "43", "43", "Century Park - South Campus/Fort Edmonton", null, null, null ]
+, [ "row-8kn4~i7km~sig6", "00000000-0000-0000-25C3-28845C6AD466", 0, 1562926379, null, 1562926379, null, "{ }", "143", "143", "Kingsway/RAH - Coliseum - Montrose", null, null, null ]
+, [ "row-gt3p-dhf9.wyg4", "00000000-0000-0000-C07E-04E6401FC8BA", 0, 1562926379, null, 1562926379, null, "{ }", "136", "136", "West Edmonton Mall - Hamptons", null, null, null ]
+, [ "row-a4fn~3buw.egrv", "00000000-0000-0000-3ED1-1B34BC88B9BA", 0, 1562926379, null, 1562926379, null, "{ }", "62", "62", "Southwood - Mill Woods - CBD", null, null, null ]
+, [ "row-3kwq.s68b~e3rh", "00000000-0000-0000-00A4-56D99BADB252", 0, 1562926379, null, 1562926379, null, "{ }", "149", "149", "Eaux Claires - West Clarview", null, null, null ]
+, [ "row-fsag~b9as~wau5", "00000000-0000-0000-9D92-D203C81B7FE6", 0, 1562926379, null, 1562926379, null, "{ }", "140", "140", "Downtown - Northgate - Lago Lindo", null, null, null ]
+, [ "row-b75q~unfc-i8cz", "00000000-0000-0000-617D-4EE96F56C22A", 0, 1562926379, null, 1562926379, null, "{ }", "36", "36", "Century Park - South Campus/Fort Edmonton", null, null, null ]
+, [ "row-3eax.4j89-kws8", "00000000-0000-0000-A9B4-62E4BF4F6AEB", 0, 1562926379, null, 1562926379, null, "{ }", "12", "12", "Northgate - Wellington - Kingsway - RAH", null, null, null ]
+, [ "row-bwb5_bmyb-gjwt", "00000000-0000-0000-4D51-F74A2F24D747", 0, 1562926379, null, 1562926379, null, "{ }", "323", "323", "Boonie Doon - Ritchie", null, null, null ]
+, [ "row-c49j-iuwa~rw66", "00000000-0000-0000-4632-1144998005D8", 0, 1562926379, null, 1562926379, null, "{ }", "89", "89", "Meadows - Wild Rose - Tamarack", null, null, null ]
+, [ "row-4nfn_6fpt-659k", "00000000-0000-0000-6A6B-7A649F77E62F", 0, 1562926379, null, 1562926379, null, "{ }", "324", "324", "Century Park - Windermere - Ambelside", null, null, null ]
+, [ "row-wgxp.n54i-md2v", "00000000-0000-0000-5010-2E6CAE62EF29", 0, 1562926379, null, 1562926379, null, "{ }", "307", "307", "Bonnie Doon - Capilano", null, null, null ]
+, [ "row-2vex_64ip-4xvn", "00000000-0000-0000-B9C0-EB41B744F26B", 0, 1562926379, null, 1562926379, null, "{ }", "562", "562", "South Campus - Spruce Grove via Acheson", null, null, null ]
+, [ "row-vvxh-bjzn~49g2", "00000000-0000-0000-6740-D4E0FEDE9492", 0, 1562926379, null, 1562926379, null, "{ }", "102", "102", "Southbound West Edmonton Mall - Lymburn", null, null, null ]
+, [ "row-34ct~gse9-5kp9", "00000000-0000-0000-8970-F26ADF5B0E24", 0, 1562926379, null, 1562926379, null, "{ }", "52", "52", "Southgate - Downtown (Nights - 97 Ave only)", null, null, null ]
+, [ "row-29gp.aygu_2ske", "00000000-0000-0000-BB42-D47F2A7E853B", 0, 1562926379, null, 1562926379, null, "{ }", "63", "63", "Southwood - Mill Woods - CBD", null, null, null ]
+ ]
+}
