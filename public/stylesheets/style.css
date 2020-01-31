@@ -10,9 +10,9 @@ body {
 
 #routeHeader {
   color: #00FFA7;
-  font: 14px "Zilla Slab SemiBold", Helvetica, Arial, sans-serif;
-  font-size: 100px;
+  font: 100px "Zilla Slab SemiBold", Helvetica, Arial, sans-serif;
   margin-left: 8.5%;
+  margin-top: 0;
 }
 
 .destination {
@@ -20,14 +20,27 @@ body {
 }
 
 input {
-  font: 55px "Zilla Slab Light";
+  width: 25%;
+  font: 75px "Zilla Slab Light";
   background: transparent;
   border: 0;
   color: #00FFA7;
-}
-
-.routeNumInput {
-  width: 10%;
   -moz-appearance: textfield;
   -webkit-appearance: textfield;
+}
+
+.getInfo {
+  margin-top: 1%;
+  padding-right: 25px;
+  padding-left: 25px;
+  width: auto;
+  height: 5vh;
+  font: 15px "Zilla Slab SemiBold";
+  border: 0;
+  border-radius: 50px;
+  background: white;
+}
+
+.notFoundImage {
+  width: 50%;
 }

@@ -1,6 +1,8 @@
 extends layout
 
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+  if (error.status === 404)
+    img(src='../images/404-graphic.png', class='notFoundImage')
+  if (error.status !== 404)
+    h1= message
+    h2= error.status
