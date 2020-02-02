@@ -1,5 +1,5 @@
 html {
-  background: #00143B;
+  background: #212940;
 }
 
 body {
@@ -11,7 +11,6 @@ body {
 #routeHeader {
   color: #00FFA7;
   font: 100px "Zilla Slab SemiBold", Helvetica, Arial, sans-serif;
-  margin-left: 8.5%;
   margin-top: 0;
 }
 
@@ -19,14 +18,18 @@ body {
   font-size: 45px;
 }
 
-input {
+.routeNumInput {
   width: 25%;
   font: 75px "Zilla Slab Light";
   background: transparent;
   border: 0;
   color: #00FFA7;
-  -moz-appearance: textfield;
-  -webkit-appearance: textfield;
+  /*-moz-appearance: textfield;
+  -webkit-appearance: textfield; */
+}
+
+.routeNumInput:invalid {
+  color: darkred;
 }
 
 .getInfo {
@@ -37,10 +40,22 @@ input {
   height: 5vh;
   font: 15px "Zilla Slab SemiBold";
   border: 0;
-  border-radius: 50px;
+  border-radius: 10px;
   background: white;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+}
+
+.getInfo:hover {
+  background: #00FFA7;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .notFoundImage {
   width: 50%;
+}
+
+#nextBus {
+  font-size: 30px;
+  margin-top: -75px;
 }
