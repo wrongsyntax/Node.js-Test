@@ -2,8 +2,8 @@ extends layout
 
 block content
   h1 #{title}
-  p Welcome to #{title}
   form(action='/info', method='GET')
     input(type='number', name='routeNumber', placeholder='Num', class='routeNumInput', min=0)
+    p#inputLabel Route number
     br
     button(type='submit' class='getInfo') Get Info
