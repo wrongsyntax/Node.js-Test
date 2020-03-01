@@ -18,12 +18,21 @@ body {
   font-size: 45px;
 }
 
+#inputLabel {
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  margin-top: -10px;
+  margin-bottom: -25px;
+}
+
 .routeNumInput {
   width: 25%;
   font: 75px "Zilla Slab Light";
   background: transparent;
   border: 0;
   color: #00FFA7;
+  outline: none;
   /*-moz-appearance: textfield;
   -webkit-appearance: textfield; */
 }
@@ -42,6 +51,7 @@ body {
   border: 0;
   border-radius: 10px;
   background: white;
+  cursor: pointer;
   -webkit-transition-duration: 0.3s; /* Safari */
   transition-duration: 0.3s;
 }
@@ -53,6 +63,13 @@ body {
 
 .notFoundImage {
   width: 50%;
+}
+
+#routeLabel {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: -25px;
 }
 
 #nextBus {
