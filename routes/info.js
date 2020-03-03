@@ -1,6 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const routeData = require('../public/data/routes');
+const fs = require('fs');
+
+const styleData = fs.readFileSync('./public/data/style.json', 'utf-8');
+const styleJSON = JSON.parse(styleData);
 
 /* GET users listing. */
 router.get('/', function(req, res) {
@@ -14,10 +18,15 @@ router.get('/', function(req, res) {
   }
   const routeName = routeData.data[routeIndex][10];
 
+  styleJSON.layers[44].paint['line-color'][2][0] = parseInt(req.query.routeNumber);    // Set the value of the line to display to the value for the current route info page
+
+  fs.writeFileSync('./public/data/final_map_style', JSON.stringify(styleJSON)); // Write the updated JSON to the temp file to use as the style for the map
+
   res.render('info', {
     routeNum: req.query.routeNumber,
     name: routeName,
-    title: 'jatw - info'
+    title: 'jatw - info',
+    style: "'../data/final_map_style'"
   });
 });
 
