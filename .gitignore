@@ -1,3 +1,5 @@
+final_map_style.json
+
 # Created by .ignore support plugin (hsz.mobi)
 ### macOS template
 # General
@@ -204,4 +206,3 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
-
