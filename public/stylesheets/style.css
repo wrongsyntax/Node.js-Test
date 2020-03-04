@@ -12,6 +12,7 @@ body {
   color: #00FFA7;
   font: 100px "Zilla Slab SemiBold", Helvetica, Arial, sans-serif;
   margin-top: 0;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 .destination {
@@ -75,4 +76,26 @@ body {
 #nextBus {
   font-size: 30px;
   margin-top: -75px;
+}
+
+.gridContainer {
+  display: grid;
+  width: 100%;
+  height: 60vh;
+  grid-template-columns: auto auto 25%;
+  align-content: center;
+}
+
+.gridItem {
+  height: inherit;
+  width: auto;
+  border-radius: 10px;
+}
+
+#map {
+  position: absolute;
+  width: 37.5%;
+  height: inherit;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
 }

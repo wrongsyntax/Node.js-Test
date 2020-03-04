@@ -6,16 +6,23 @@ html
         meta(name='viewport', content='initial-scale=1,maximum-scale=1,user-scalable=no')
         script(src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js')
         link(href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css', rel='stylesheet')
-        style.
-            body { margin: 0; padding: 0; }
-            #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        link(href='/stylesheets/style.css', rel='stylesheet')
     body
-        #map
-        script.
-            mapboxgl.accessToken = 'pk.eyJ1Ijoid3JvbmdzeW50YXgiLCJhIjoiY2s3YXVvaGc2MDU3ZzNtbWduc3YycHd3cCJ9.wOKQmOnQd0wwsB4vEvEU0A';
-            var map = new mapboxgl.Map({
-                container: 'map', // container id
-                style: #{style}, // stylesheet location
-                center: [-113.490, 53.528], // starting position [lng, lat]
-                zoom: 10 // starting zoom
-            });
+        p#routeLabel Route #
+        h1#routeHeader #{routeNum} <span class='destination'>#{name}</span>
+        p#nextBus Next bus in [] minutes
+        div(class='gridContainer')
+            div(class='gridItem')
+                // Table goes here
+            div(class='gridItem')
+                #map
+                script.
+                    mapboxgl.accessToken = 'pk.eyJ1Ijoid3JvbmdzeW50YXgiLCJhIjoiY2s3YXVvaGc2MDU3ZzNtbWduc3YycHd3cCJ9.wOKQmOnQd0wwsB4vEvEU0A';
+                    var map = new mapboxgl.Map({
+                        container: 'map', // container id
+                        style: #{style}, // stylesheet location
+                        center: [-113.490, 53.528], // starting position [lng, lat]
+                        zoom: 9.5 // starting zoom
+                    });
+            div(class='gridItem')
+                // Nearby routes go here
