@@ -17,12 +17,21 @@ html
             div(class='gridItem')
                 #map
                 script.
-                    mapboxgl.accessToken = 'pk.eyJ1Ijoid3JvbmdzeW50YXgiLCJhIjoiY2s3YXVvaGc2MDU3ZzNtbWduc3YycHd3cCJ9.wOKQmOnQd0wwsB4vEvEU0A';
+                    mapboxgl.accessToken = 'pk.eyJ1Ijoid3JvbmdzeW50YXgiLCJhIjoiY2s3Y3Zrb2RwMDhpbzNnbnc1emllajFiayJ9.b5jR0wDt8Yuy_VW-aT_zUg';
                     var map = new mapboxgl.Map({
                         container: 'map', // container id
                         style: #{style}, // stylesheet location
                         center: [-113.490, 53.528], // starting position [lng, lat]
                         zoom: 9.5 // starting zoom
                     });
+                    // Add geolocate control to the map.
+                    map.addControl(
+                        new mapboxgl.GeolocateControl({
+                            positionOptions: {
+                                enableHighAccuracy: true
+                            },
+                            trackUserLocation: true
+                        })
+                    );
             div(class='gridItem')
                 // Nearby routes go here
