@@ -2778,8 +2778,8 @@
             "paint": {
                 "line-color": [
                     "match",
-                    ["get", "route-num"],
-                    [0],
+                    ["get", "ref"],
+                    [""],
                     "hsl(213, 88%, 55%)",
                     "hsla(213, 0%, 100%, 0)"
                 ],

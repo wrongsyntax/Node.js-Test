@@ -6,13 +6,13 @@ body {
   padding: 50px;
   font: 24px "Zilla Slab", Helvetica, Arial, sans-serif;
   color: white;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
 }
 
 #routeHeader {
   color: #00FFA7;
-  font: 100px "Zilla Slab SemiBold", Helvetica, Arial, sans-serif;
-  margin-top: 0;
-  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  font: 11vh "Zilla Slab SemiBold", Helvetica, Arial, sans-serif;
+  margin-top: -50px;
 }
 
 .destination {
@@ -70,7 +70,7 @@ body {
   font-size: 25px;
   font-weight: lighter;
   color: white;
-  margin-bottom: -25px;
+  margin-top: 0;
 }
 
 #nextBus {
@@ -94,8 +94,32 @@ body {
 
 #map {
   position: absolute;
-  width: 37.5%;
-  height: inherit;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.headerGrid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 80% auto;
+}
+
+.search {
+  background: rgba(33, 41, 64, 0.5);
+  color: white;
+  border: 1px solid white;
+  height: 4vh;
   border-radius: 10px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  padding-left: 15px;
+  padding-right: 15px;
+  font: 90% "Zilla Slab", Helvetica, Arial, sans-serif;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+}
+
+.search:focus {
+  border: 1px solid #00FFA7;
 }

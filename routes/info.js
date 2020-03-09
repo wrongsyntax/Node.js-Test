@@ -18,10 +18,10 @@ router.get('/', function(req, res) {
   }
   const routeName = routeData.data[routeIndex][10];
 
-  styleJSON.layers[44].paint['line-color'][2][0] = parseInt(req.query.routeNumber);    // Set the value of the line to display to the value for the current route info page
+  styleJSON.layers[44].paint['line-color'][2][0] = req.query.routeNumber;    // Set the value of the line to display to the value for the current route info page
 
   fs.writeFileSync('./public/data/final_map_style.json', JSON.stringify(styleJSON)); // Write the updated JSON to the final map style file to use as the style for the map
-
+  // TODO: Attempt to implement the map by exporting the routes as geoJSON and adding it to the data directory and render the layer from there
   res.render('info', {
     routeNum: req.query.routeNumber,
     name: routeName,

@@ -2,36 +2,36 @@ doctype html
 html
     head
         meta(charset='utf-8')
-        title Display a map
+        title Route info
         meta(name='viewport', content='initial-scale=1,maximum-scale=1,user-scalable=no')
         script(src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js')
         link(href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css', rel='stylesheet')
         link(href='/stylesheets/style.css', rel='stylesheet')
     body
-        p#routeLabel Route #
+        div(class='headerGrid')
+            div
+                p#routeLabel Route #
+            div
+                form(action='/info', method='GET')
+                    input(type='number', name='routeNumber', placeholder='Num', class='search', min=0)
         h1#routeHeader #{routeNum} <span class='destination'>#{name}</span>
         p#nextBus Next bus in [] minutes
-        div(class='gridContainer')
-            div(class='gridItem')
-                // Table goes here
-            div(class='gridItem')
-                #map
-                script.
-                    mapboxgl.accessToken = 'pk.eyJ1Ijoid3JvbmdzeW50YXgiLCJhIjoiY2s3Y3Zrb2RwMDhpbzNnbnc1emllajFiayJ9.b5jR0wDt8Yuy_VW-aT_zUg';
-                    var map = new mapboxgl.Map({
-                        container: 'map', // container id
-                        style: #{style}, // stylesheet location
-                        center: [-113.490, 53.528], // starting position [lng, lat]
-                        zoom: 9.5 // starting zoom
-                    });
-                    // Add geolocate control to the map.
-                    map.addControl(
-                        new mapboxgl.GeolocateControl({
-                            positionOptions: {
-                                enableHighAccuracy: true
-                            },
-                            trackUserLocation: true
-                        })
-                    );
-            div(class='gridItem')
-                // Nearby routes go here
+        #map
+        // Script to load map
+        script.
+            mapboxgl.accessToken = 'pk.eyJ1Ijoid3JvbmdzeW50YXgiLCJhIjoiY2s3Zmpha2dmMDNpcDNodDZybmNpNXpmMyJ9.-WSlbyZ2q7Z07ci9wQ9pUQ';
+            var map = new mapboxgl.Map({
+                container: 'map', // container id
+                style: #{style}, // stylesheet location
+                center: [-113.490, 53.538], // starting position [lng, lat]
+                zoom: 10.5 // starting zoom
+            });
+            // Add geolocate control to the map. (Taken from Mapbox Documentation)
+            map.addControl(
+                new mapboxgl.GeolocateControl({
+                    positionOptions: {
+                        enableHighAccuracy: true
+                    },
+                    trackUserLocation: true
+                })
+            );
