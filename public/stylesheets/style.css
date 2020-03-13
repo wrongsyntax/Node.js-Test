@@ -6,7 +6,11 @@ body {
   padding: 50px;
   font: 24px "Zilla Slab", Helvetica, Arial, sans-serif;
   color: white;
+  margin: 0;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  /*
+  background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(9, 139, 246, 0.5) 100%);
+   */
 }
 
 #routeHeader {
@@ -78,20 +82,6 @@ body {
   margin-top: -75px;
 }
 
-.gridContainer {
-  display: grid;
-  width: 100%;
-  height: 60vh;
-  grid-template-columns: auto auto 25%;
-  align-content: center;
-}
-
-.gridItem {
-  height: inherit;
-  width: auto;
-  border-radius: 10px;
-}
-
 #map {
   position: absolute;
   top: 0;
@@ -101,7 +91,7 @@ body {
   height: 100%;
 }
 
-.headerGrid {
+.searchGrid {
   display: grid;
   width: 100%;
   grid-template-columns: 80% auto;
@@ -112,6 +102,7 @@ body {
   color: white;
   border: 1px solid white;
   height: 4vh;
+  width: 100%;
   border-radius: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -122,4 +113,12 @@ body {
 
 .search:focus {
   border: 1px solid #00FFA7;
+}
+
+.search:invalid {
+  border: 1px solid red;
+}
+
+#schedule {
+
 }
